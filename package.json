@@ -1,0 +1,28 @@
+{
+  "name": "Rnwst2",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "rn-start": "node node_modules/react-native/local-cli/cli.js start",
+    "rn-test": "jest",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "react": "16.6.3",
+    "react-native": "0.57.7",
+    "react-native-web": "^0.9.8",
+    "react-scripts": "2.1.1"
+  },
+  "devDependencies": {
+    "babel-jest": "23.6.0",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.50.0",
+    "react-test-renderer": "16.6.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
