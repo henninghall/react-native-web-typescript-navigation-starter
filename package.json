@@ -11,15 +11,20 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
+    "@react-navigation/core": "^3.0.0",
+    "@react-navigation/web": "^1.0.0-alpha.7",
     "@types/jest": "^23.3.10",
     "@types/node": "^10.12.12",
     "@types/react": "^16.7.13",
     "@types/react-dom": "^16.0.11",
+    "@types/react-navigation": "^2.13.7",
     "react": "16.6.3",
     "react-art": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-native": "0.57.7",
+    "react-native-gesture-handler": "^1.0.10",
     "react-native-web": "^0.9.8",
+    "react-navigation": "^3.0.4",
     "react-scripts": "2.1.1",
     "typescript": "^3.2.1"
   },
