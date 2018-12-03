@@ -11,17 +11,24 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
+    "@types/jest": "^23.3.10",
+    "@types/node": "^10.12.12",
+    "@types/react": "^16.7.13",
+    "@types/react-dom": "^16.0.11",
     "react": "16.6.3",
     "react-art": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-native": "0.57.7",
     "react-native-web": "^0.9.8",
-    "react-scripts": "2.1.1"
+    "react-scripts": "2.1.1",
+    "typescript": "^3.2.1"
   },
   "devDependencies": {
+    "@types/react-native": "^0.57.17",
     "babel-jest": "23.6.0",
     "jest": "23.6.0",
     "metro-react-native-babel-preset": "0.50.0",
+    "react-native-typescript-transformer": "^1.2.10",
     "react-test-renderer": "16.6.1"
   },
   "jest": {
