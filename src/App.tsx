@@ -1,11 +1,13 @@
-import { createStackNavigator, createAppContainer } from "react-navigation";
+import React from "react";
+import NavigationService from "./navigation/NavigationService";
+import Navigator from "./navigation/Navigator";
 
-import Profile from "./Profile";
-import Web from './Web';
+export default class App extends React.Component {
 
-const MyNavigator = createStackNavigator({
-  Web,
-  Profile
-});
+  render() {
+    return <Navigator ref={this.setRef} />
+  }
+  
+  setRef = navigatorRef => NavigationService.setTopLevelNavigator(navigatorRef);
 
-export default createAppContainer(MyNavigator)
+}
