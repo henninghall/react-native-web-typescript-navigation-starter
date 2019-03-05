@@ -1,4 +1,4 @@
-# rn-web-ts-nav-starter
+# react-native-web-typescript-navigation-starter
 A starter config for building cross platform apps for ios, android and web. Based on create-react-app for web part and "react-native init" (no Expo) for react native part.
 
 ### Setup includes
