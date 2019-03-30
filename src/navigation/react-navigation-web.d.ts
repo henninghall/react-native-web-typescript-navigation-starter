@@ -12,4 +12,6 @@ declare module 'react-navigation' {
     export const createAppContainer: any
     export const createStackNavigator: any
     export const NavigationActions: any
+    export const createDrawerNavigator: any
+    export const DrawerActions : any
 }

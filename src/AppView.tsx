@@ -7,12 +7,19 @@ type Props = {
     title: string,
 }
 
+const a = JSON.parse('{"b":"s"}')
+
 export default (props: Props) => (
     <View style={styles.container}>
-        {web && <Text style={styles.header}>{props.title}</Text>}
+
+        <Text style={styles.header}>{getBool(a) ? 'true' : false}</Text>
         <Links />
     </View>
 )
+
+const getBool = (a: { b: boolean }): boolean => {
+    return a.b
+}
 
 const styles = StyleSheet.create({
     container: {
@@ -25,4 +32,3 @@ const styles = StyleSheet.create({
         marginBottom: 20,
     }
 })
-
