@@ -7,6 +7,14 @@ A starter config for building cross platform apps for ios, android and web. Base
 - React Navigation - https://reactnavigation.org/
 - Typescript
 
+### Run it
+
+iOS: `npm run ios`
+
+Andorid: `npm run android`
+
+Web: `npm run start`
+
 ### Versions
     "react": "16.6.3",
     "react-native": "0.57.7",
